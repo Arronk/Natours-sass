@@ -13,9 +13,11 @@
   },
   "author": "Aza",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "hoek": "^5.0.3"
+  },
   "devDependencies": {
-    "autoprefixer": "^8.6.0",
+    "autoprefixer": "^8.6.1",
     "concat": "^1.0.3",
     "node-sass": "^4.9.0",
     "npm-run-all": "^4.1.3",
