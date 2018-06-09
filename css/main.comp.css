@@ -839,7 +839,7 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -20rem;
   z-index: 1500;
   opacity: 0;
   width: 0;
@@ -883,6 +883,7 @@ body {
 
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
+  left: 0;
   width: 100%; }
 
 .navigation__icon {
