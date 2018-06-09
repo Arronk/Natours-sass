@@ -44,6 +44,14 @@ ORDER: Base + typography > general layout + grid > page layout > components
     opacity: 1;
     transform: translateY(0); } }
 
+@keyframes fixNavAnim {
+  0% {
+    top: -5000px;
+    left: -5000px; }
+  100% {
+    top: 0;
+    left: 0; } }
+
 *,
 *::after,
 *::before {
@@ -834,6 +842,7 @@ body {
   z-index: 1500;
   opacity: 0;
   width: 0;
+  animation: fixNavAnim 1s;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
 .navigation__list {
