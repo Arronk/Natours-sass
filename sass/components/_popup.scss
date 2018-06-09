@@ -18,6 +18,7 @@
         overflow: hidden;
         display: table;
         opacity: 0;
+        animation: fixNavAnim 1s;
         transform: translate(-50%, -50%) scale(0.1);
         transition: all .4s .2s;
         @include respond(phone) {
